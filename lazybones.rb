@@ -1,9 +1,9 @@
 class Lazybones < Formula
   desc "Lazybones allows you to create a new project structure for any framework or library for which the tool has a template."
   homepage 'https://github.com/pledbrook/lazybones'
-  url "https://bintray.com/artifact/download/pledbrook/lazybones-templates/lazybones-0.8.zip"
-  version "0.8"
-  sha256 "922693a3b91b3dfb26a641be1200818c651801a3cc24992b7af6049e9fa97df8"
+  url "https://bintray.com/artifact/download/pledbrook/lazybones-templates/lazybones-0.8.1.zip"
+  version "0.8.1"
+  sha256 "b727f9233ab00552d4bc063995ff95d2b578dc3fb808b7d59a296eee7186f7f2"
 
   def install
     bin.install 'bin/lazybones'
